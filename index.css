@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(83, 3, 3);
+    display: flex;
+    flex-wrap:wrap;
+    align-content: flex-start;
+}
+.alive{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    border: lightblue 1px solid;
+}
+.dead{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    border: lightblue 1px solid;
+    
+}
+button{
+    width:10rem;
+    height: 5rem;
+}
